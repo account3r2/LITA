@@ -34,5 +34,5 @@ end
 if not pcall(loadLibraries) then
 	io.write("ERROR: Couldn't load libraries.\n")
 	io.write("Ensure you have both LuaSocket and JSON4Lua installed.\n")
-	os.exit()
+	os.exit(1)
 end
